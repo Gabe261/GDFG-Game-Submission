@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="Container" style="flex-grow: 1; justify-content: space-around; align-items: center; flex-direction: row;">
+        <engine:VisualElement name="LeftSlider" style="width: 10px; height: 150px; max-width: 10px; min-width: 10px; max-height: 150px; min-height: 150px; background-color: rgb(48, 48, 48); justify-content: center;">
+            <engine:VisualElement name="LeftWing" style="flex-grow: 1; width: 40px; height: 10px; max-width: 40px; min-width: 40px; max-height: 10px; background-color: rgb(255, 255, 255); align-self: center; justify-content: flex-start; position: relative;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="RightSlider" style="width: 10px; height: 150px; max-width: 10px; min-width: 10px; max-height: 150px; min-height: 150px; background-color: rgb(48, 48, 48); justify-content: center;">
+            <engine:VisualElement name="RightWing" style="flex-grow: 1; width: 40px; height: 10px; max-width: 40px; min-width: 40px; max-height: 10px; background-color: rgb(255, 255, 255); align-self: center; justify-content: flex-start;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
